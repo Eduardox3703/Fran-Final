@@ -183,7 +183,7 @@ h1, h2, h3 {
 }
 
 .hero p {
-    font-size: 3.1rem;
+    font-size: 2.1rem;
     margin-bottom: 50px; /* Increased margin-bottom to move the text down */
     max-width: 600px;
     margin-left: auto;
