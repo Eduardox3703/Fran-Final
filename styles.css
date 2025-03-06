@@ -560,7 +560,11 @@ h1, h2, h3 {
     aspect-ratio: 4/5;
     margin-top: 20px;
 }
-
+.exhibitions h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
 .gallery-item {
     border-radius: 12px;
     overflow: hidden;
@@ -568,10 +572,7 @@ h1, h2, h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gallery-item:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    z-index: 1;
-}
+
 
 .gallery-item img {
     width: 100%;
@@ -614,12 +615,8 @@ h1, h2, h3 {
     color: white;
     padding: 0.75rem;
     opacity: 0;
-    transition: opacity 0.3s ease;
 }
 
-.gallery-item:hover .caption {
-    opacity: 1;
-}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
